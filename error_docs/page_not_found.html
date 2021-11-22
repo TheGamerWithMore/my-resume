@@ -1,0 +1,80 @@
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<body link="#264bec" vlink="#6682ff" alink="#e2e7ff">
+<head>
+  <script src="https://kit.fontawesome.com/8ab8c599fe.js" crossorigin="anonymous"></script>
+<title>Page Not Found | TechPress Network </title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Ubuntu;
+  background: #000;
+  animation-name: pulsating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsating {
+  0% {
+    background-color: #000;
+  }
+  50% {
+    background-color: rgb(255, 0, 0);
+  }
+  100 {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url('/maintenance/toolkit.png');
+  opacity: 0.8;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f00;
+  box-shadow: 0px 0px 10px #f00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<div class="bg-image"></div>
+
+<div class="bg-text">
+<h1 style="text-align: right;margin: 0px;font-size: 75px;"><span style="color: #ffffff;"><i class="fas fa-exclamation-triangle"></i><strong>Page Not Found </strong></span></h1>
+<hr />
+<p><span style="color: #ffffff;">The page or resource you requested is either not on this server or has been deleted. If you were trying to visit the resource, please check for any typographical errors and retry your query. </span></p>
+<span lang="ja" style="color: #ffffff;">リクエストしたページまたはリソースは、このサーバー上にないか、削除されています。 リソースにアクセスしようとした場合は、入力ミスがないか確認し、クエリを再試行してください。</span>
+<p><span lang="hepburn" style="color: #ffffff;">Rikuesuto shita pēji matawa risōsu wa, kono sābā-jō ni nai ka, sakujo sa rete imasu. Risōsu ni akusesu shiyou to shita baai wa, nyūryoku misu ga nai ka kakunin shi, kueri o sai shikō shite kudasai. </span></p>
+<hr />
+<span style="color:#fff;text-align:center;">So what are you doing here? Why not check <a href="https://techpress.network">TechPress</a>, <a href="https://xyaena.techpress.network">Xyaena's Blog</a> or <a href="https://xyaena.techpress.network/smf/index.php">the forums</a>?</span>
+<BR>
+<span style="color:rgba(255, 255, 255, 0.171);text-align:center;">Error Code: PAGE_NOT_FOUND</span>
+</div>
+</div>
+</body>
+</html>

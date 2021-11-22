@@ -1,0 +1,4 @@
+ErrorDocument 403 /error_docs/method_not_allowed.html
+ErrorDocument 404 /error_docs/page_not_found.html
+ErrorDocument 401 /error_docs/access_denied.html
+ErrorDocument 400 /error_docs/bad_request.html
